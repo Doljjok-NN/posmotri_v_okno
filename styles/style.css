@@ -331,5 +331,6 @@ input {
 }
 
 .more-button {
+  margin-bottom: 1px;
   width: 100%;
 }
