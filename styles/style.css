@@ -49,12 +49,11 @@ ol {
 
 .result {
   margin-top: 80px;
-  width: 711px;
 }
 
 .result__video-container {
   position: relative;
-  inline-size: 100%;
+  inline-size: 711px;
   block-size: 386px;
 }
 
@@ -80,8 +79,7 @@ ol {
 .search-form {
   padding-top: 16px;
   display: flex;
-  align-items: start;
-  gap: 32px;
+  justify-content: space-between;
 }
 
 .search-form__fieldset {
@@ -94,13 +92,10 @@ ol {
   display: flex;
 }
 
-.search-form__label-text {
-  padding-right: 15px;
-}
-
 .search-form__label {
   width: fit-content;
   display: flex;
+  padding-right: 15px;
 }
 
 input {
@@ -181,8 +176,8 @@ input {
 .search-form__submit-button {
   width: 194px;
   align-self: flex-end;
-  flex-grow: 2;
-  flex-shrink: 0;
+  /* flex-grow: 1;
+  flex-shrink: 0; */
 }
 
 .button {
